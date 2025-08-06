@@ -1,0 +1,44 @@
+[project]
+name = "gh2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "camel-ai[owl]",
+    "ipython",
+    "kokoro",
+    "librosa",
+    "mss",
+    "opencv-python",
+    "pip",
+    "sounddevice",
+    "thinc",
+    "timm",
+    "torch",
+    "torchaudio",
+    "torchvision",
+    "unsloth",
+    "spacy==3.8.7",
+    "fastapi>=0.116.1",
+    "xmltodict>=0.14.2",
+]
+
+# "spacy==3.8.0",
+# "en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl"
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu128" }]
+torchvision = [{ index = "pytorch-cu128" }]
+torchaudio = [{ index = "pytorch-cu128" }]
+
+[tool.uv.workspace]
+members = [
+    "Z_Agent",
+]
