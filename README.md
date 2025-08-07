@@ -115,6 +115,6 @@ It is recommended to have an NVIDIA GPU with at least **12 GB of VRAM** for opti
 *Note: The first run will download the model, which may take some time.*
 ---
 
-## Usage Example
+## How to use.
 
 ![](resources/how-to-use.jpg)
