@@ -33,7 +33,7 @@ This project utilizes [unsloth/gemma-3n-E4B-it-unsloth-bnb-4bit](https://hugging
 
 1.  **Chatting & Streaming:** The frontend sends requests directly to the FastAPI server, which leverages the Gemma 3n model. The text output can be converted to speech using Kokoro TTS.
 2.  **Agent & Coding:** The agent and coding API server provides an OpenAI-compatible endpoint at `http://localhost:8000/`.
-    * You can use this in any app that supports OpenAI API compatibility.
+    * You can use this with any app that supports OpenAI API compatibility, such as Cline, RooCode, and Camel-AI Owl Agent.
     * Use any value as the API key.
 
 
