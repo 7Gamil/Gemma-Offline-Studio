@@ -677,7 +677,7 @@ export function ChatActions(props: {
       <ChatAction
         onClick={async () => {
           const message =
-            "The model has been loaded using Unsloth.\n-The OpenAI API compatible endpoint is available at: http://localhost:8000/.\n-You can use any value as the API key.\n-You can use any agent tool that supports OpenAI API compatibility, such as Camel-AI OWL.\n\nAlternative option using Ollama:\n-Run ollama run gemma3n:e2b or gemma3n:e4b\n-Use Ollama's default API URL http://localhost:11434/api";
+            "The model has been loaded using Unsloth.\n-The OpenAI API compatible endpoint is available at: http://localhost:8000/.\n-You can use any value as the API key.\n-You can use any agent tool that supports OpenAI API compatibility, such as Camel-AI OWL Agent.\n\nAlternative option using Ollama:\n-Run ollama run gemma3n:e2b or gemma3n:e4b\n-Use Ollama's default API URL http://localhost:11434/api";
 
           // 1. sent dummy to the api to force the model to be loaded
           try {
