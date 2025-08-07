@@ -34,8 +34,10 @@ tokenizer = None
 current_model_name = None
 
 MODELS = {
-    "unsloth/gemma-3n-E2B-it-unsloth-bnb-4bit": "/home/dev/.local/.unsloth_gemma-3n-E2B-it-unsloth-bnb-4bit",
-    "unsloth/gemma-3n-E4B-it-unsloth-bnb-4bit": "/home/dev/.local/.unsloth_gemma-3n-E4B-it-unsloth-bnb-4bit",
+    # "unsloth/gemma-3n-E2B-it-unsloth-bnb-4bit": "/home/dev/.local/.unsloth_gemma-3n-E2B-it-unsloth-bnb-4bit",
+    # "unsloth/gemma-3n-E4B-it-unsloth-bnb-4bit": "/home/dev/.local/.unsloth_gemma-3n-E4B-it-unsloth-bnb-4bit",
+    "unsloth/gemma-3n-E2B-it-unsloth-bnb-4bit": "unsloth/gemma-3n-E2B-it-unsloth-bnb-4bit",
+    "unsloth/gemma-3n-E4B-it-unsloth-bnb-4bit": "unsloth/gemma-3n-E4B-it-unsloth-bnb-4bit",
 }
 
 def load_model(model_name: str):
