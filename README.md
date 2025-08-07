@@ -27,7 +27,7 @@ graph TD
     E -->|Powered by| C
 ```
 
-This project utilizes [unsloth/gemma-3n-E4B-it-unsloth-bnb-4bit](https://huggingface.co/unsloth/gemma-3n-E4B-it-unsloth-bnb-4bit) and [unsloth/gemma-3n-E2B-it-unsloth-bnb-4bit](https://huggingface.co/unsloth/gemma-3n-E2B-it-unsloth-bnb-4bit).
+The application utilizes [unsloth/gemma-3n-E4B-it-unsloth-bnb-4bit](https://huggingface.co/unsloth/gemma-3n-E4B-it-unsloth-bnb-4bit) and [unsloth/gemma-3n-E2B-it-unsloth-bnb-4bit](https://huggingface.co/unsloth/gemma-3n-E2B-it-unsloth-bnb-4bit).
 
 **Workflow:**
 
