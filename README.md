@@ -117,4 +117,4 @@ It is recommended to have an NVIDIA GPU with at least **12 GB of VRAM** for opti
 
 ## Usage Example
 
-![](how_to_use.jpg)
+![](how-to-use.jpg)
