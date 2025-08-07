@@ -43,7 +43,7 @@ This project utilizes [unsloth/gemma-3n-E4B-it-unsloth-bnb-4bit](https://hugging
 
 ## System Requirements
 
-The following are the observed GPU memory requirements with low context based on testing:
+The following are the observed GPU memory requirements with low length context, based on testing:
 
 **On Ubuntu:**
 
@@ -64,7 +64,9 @@ It is recommended to have an NVIDIA GPU with at least **12 GB of VRAM** for opti
 
 ---
 
-## Setup Instructions (Tested on Ubuntu)
+# Setup & Running Instructions (Tested on Ubuntu)
+
+## Setup Instructions
 
 1.  **Make sure you have Python, Git, and Node.js installed before you start.**
 
