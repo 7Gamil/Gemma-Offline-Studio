@@ -6,7 +6,11 @@
 
 ## Introduction & Use Cases
 
-[![](http://markdown-videos-api.jorgenkh.no/youtube/s9lmQqs0jXY)](https://youtu.be/s9lmQqs0jXY)
+<!-- [![](http://markdown-videos-api.jorgenkh.no/youtube/s9lmQqs0jXY)](https://youtu.be/s9lmQqs0jXY) -->
+
+<a href="https://youtu.be/s9lmQqs0jXY" target="_blank">
+  <img src="http://markdown-videos-api.jorgenkh.no/youtube/s9lmQqs0jXY" width="560" height="315">
+</a>
 
 ---
 
