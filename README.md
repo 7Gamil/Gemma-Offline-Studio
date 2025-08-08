@@ -113,6 +113,9 @@ It is recommended to have an NVIDIA GPU with at least **12 GB of VRAM** for opti
 3.  **Open your browser and navigate to `http://localhost:3000`**
 
 *Note: The first run will download the model, which may take some time.*
+
+![](resources/how-to-run.jpg)
+
 ---
 
 ## How to use.
@@ -120,7 +123,21 @@ It is recommended to have an NVIDIA GPU with at least **12 GB of VRAM** for opti
 ![](resources/how-to-use.jpg)
 
 ## Agent
-how to ready-agent with gemma offline studio
+Camel-ai OWL ready to use with gemma offline studio
+```bash
+uv run agent/owl_agent.py
+```
+Write the task
+e.g.
+```bash
+Put my files {path} into their categorical, make new folders if needed using terminal or python
+```
+![](resources/agent_1.jpg)
+The result
+![](resources/agent_2.jpg)
 
 ## Coding
-screen of roo code extension in vscode using ollama to run gemma 3m
+Roo code extension in vscode using ollama to run gemma 3n
+![](resources/coding_1.jpg)
+![](resources/coding_2.jpg)
+![](resources/coding_3.jpg)
