@@ -118,3 +118,9 @@ It is recommended to have an NVIDIA GPU with at least **12 GB of VRAM** for opti
 ## How to use.
 
 ![](resources/how-to-use.jpg)
+
+## Agent
+how to ready-agent with gemma offline studio
+
+## Coding
+screen of roo code extension in vscode using ollama to run gemma 3m

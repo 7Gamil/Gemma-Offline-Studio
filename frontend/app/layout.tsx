@@ -6,9 +6,9 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "WebLLM Chat",
+  title: "Gemma Offline Studio",
   description:
-    "Chat with AI large language models running natively in your browser. Enjoy private, server-free, seamless AI conversations.",
+    "offline Chatting, streaming, agent tasks, and coding powered by Gemma 3n.",
   viewport: {
     width: "device-width",
     initialScale: 1,

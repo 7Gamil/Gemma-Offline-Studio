@@ -4,7 +4,7 @@ import { SubmitKey } from "../store/config";
 
 const en = {
   Title: "Gemma Offline Studio",
-  Subtitle: "Chat, Stream, Agent, Coding\nPowered by Gemma 3n",
+  Subtitle: "offline Chatting, streaming, agent tasks, and coding powered by Gemma 3n",
   WIP: "Coming Soon...",
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
