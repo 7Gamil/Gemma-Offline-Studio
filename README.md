@@ -126,12 +126,8 @@ It is recommended to have an NVIDIA GPU with at least **12 GB of VRAM** for opti
 
 ![](resources/how-to-use.jpg)
 
-## How to use
-
-![](resources/how-to-use.jpg)
-
 ## Agent
-Camel-AI OWL ready to use with gemma offline studio
+Camel-AI OWL ready to use with Gemma Offline Studio
 ```bash
 uv run agent/owl_agent.py
 ```
@@ -147,6 +143,9 @@ The result
 
 ## Coding
 Roo code extension in vscode using ollama to run gemma 3n
+
 ![](resources/coding_1.jpg)
+
 ![](resources/coding_2.jpg)
+
 ![](resources/coding_3.jpg)
