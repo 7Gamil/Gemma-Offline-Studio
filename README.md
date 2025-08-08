@@ -141,6 +141,7 @@ Put my files {path} into their categorical, make new folders if needed using ter
 ![](resources/agent_1.jpg)
 
 The result
+
 ![](resources/agent_2.jpg)
 
 ## Coding
