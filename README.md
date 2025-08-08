@@ -50,15 +50,15 @@ The following are the observed GPU memory requirements with low length context, 
 *   **unsloth/gemma-3n-E2B-it-unsloth-bnb-4bit:** 9 GB VRAM
 *   **unsloth/gemma-3n-E4B-it-unsloth-bnb-4bit:** 11 GB VRAM
 
-*   **ollam run gemma3n:e2b:** 6 GB VRAM
-*   **ollam run gemma3n:e4b:** 8 GB VRAM
+*   **ollama run gemma3n:e2b:** 6 GB VRAM
+*   **ollama run gemma3n:e4b:** 8 GB VRAM
 
 **On Google Colab:**
 
 *   **unsloth/gemma-3n-E2B-it-unsloth-bnb-4bit:** 8 GB VRAM
 *   **unsloth/gemma-3n-E4B-it-unsloth-bnb-4bit:** 10 GB VRAM
-*   **ollam run gemma3n:e2b:** 5.5 GB VRAM
-*   **ollam run gemma3n:e4b:** 7.5 GB VRAM
+*   **ollama run gemma3n:e2b:** 5.5 GB VRAM
+*   **ollama run gemma3n:e4b:** 7.5 GB VRAM
 
 It is recommended to have an NVIDIA GPU with at least **12 GB of VRAM** for optimal performance.
 
