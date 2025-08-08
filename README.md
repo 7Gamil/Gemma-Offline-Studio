@@ -90,10 +90,14 @@ It is recommended to have an NVIDIA GPU with at least **12 GB of VRAM** for opti
         pip install uv
         ```
 
-4.  **Install dependencies:**
+4.  **Install python dependencies:**
     ```bash
     uv sync
-    yarn install
+    ```
+
+5.  **Install Node.js dependencies:**
+    ```bash
+    cd frontend/ && yarn install
     ```
 
 ---
@@ -107,7 +111,7 @@ It is recommended to have an NVIDIA GPU with at least **12 GB of VRAM** for opti
 
 2.  **Start the frontend:**
     ```bash
-    yarn dev
+    cd frontend/ && yarn dev
     ```
 
 3.  **Open your browser and navigate to `http://localhost:3000`**
@@ -122,17 +126,22 @@ It is recommended to have an NVIDIA GPU with at least **12 GB of VRAM** for opti
 
 ![](resources/how-to-use.jpg)
 
+## How to use
+
+![](resources/how-to-use.jpg)
+
 ## Agent
-Camel-ai OWL ready to use with gemma offline studio
+Camel-AI OWL ready to use with gemma offline studio
 ```bash
 uv run agent/owl_agent.py
 ```
-Write the task
-e.g.
+Write the task, e.g.
+
 ```bash
 Put my files {path} into their categorical, make new folders if needed using terminal or python
 ```
 ![](resources/agent_1.jpg)
+
 The result
 ![](resources/agent_2.jpg)
 
